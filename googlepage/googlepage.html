@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:rgb(39, 36, 36);
+        }
+        nav{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            
+        }
+        .first{
+            width: 350px;
+            height: fit-content;
+            display: flex;
+            justify-content:space-around;
+           
+
+        }
+        .box{
+            display: inline-block;
+            height: fit-content;
+            width: fit-content;
+           
+           
+            
+        }
+        a{
+            font-size: 30px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        #at:hover{
+
+            text-decoration: underline;
+            
+        }
+        #fi{
+            padding: 3px 10px;
+            background-color: rebeccapurple;
+            border-radius: 50%;
+            
+        }
+        #box3{
+            padding: 8px;
+            color: aliceblue;
+        }
+        #box4{
+            width: fit-content;
+            height: fit-content;
+        }
+        #google{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        #go{
+            width: fit-content;
+            font-size: 10rem;
+            color: aliceblue;
+        }
+        #section2{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #con{
+            width: 600px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            box-shadow: 2px 2px 2px 2px rebeccapurple ;
+            
+
+        }
+        #con #inp{
+
+            width: fit-content;
+            height: fit-content;
+            margin-left: 10px;
+        }
+        #con #inp #sicon{
+            padding: 10px;
+            margin-right: 3px;
+        }
+        #searchbar{
+            height: 50px;
+            width: 520px;
+            display: flex;
+            align-items: center;
+        }
+        #searchbar input{
+            width: 500px;
+            height: 46px;
+            display: flex;
+            align-items: center;
+            border: none;
+            outline: none;
+            font-size: 25px;
+
+        }
+
+       input::placeholder{
+        font-size: 25px;
+        position: relative;
+        top: 2px;
+
+       }
+       #section3{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+       }
+       #secpar{
+        width: 565px;
+        height: 283px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .secparbox{
+        height: 140px;
+        width: 140px;
+        border: 1px so;
+        border-radius: 10px;
+       }
+       .secparbox:hover{
+        background-color: gray;
+       }
+       
+        details{
+            color: white;
+        }
+        #detailbox{
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="first">
+                <div class="box" id="box1"><a id="at"  href="#">Gmail</a></div>
+                <div class="box" id="box2"><a id="at" href="#">Images</a></div>
+               <details>
+                           <div id="detailbox"></div>
+                    
+                       <summary>
+                        <div class="box" id="box3"><i class="fa fa-th" aria-hidden="true"></i></div>
+                       </summary> 
+                
+                </details>
+                <div class="box" id="box4"><a  id="fi" href="#">T</a></div>
+            </div>
+        </nav>
+        <section id="google">
+           <div id="go">Google</div>
+        </section>
+        <section id="section2">
+          <div id="con">
+              <div id="inp">
+                <div id="sicon"> <i class="fa fa-search" aria-hidden="true"></i>   </div>
+              </div>
+              <div id="searchbar"><input type="url" name="" id="" placeholder="Search Google or Type a URL"></div>
+              <div id="micro">
+                <i class="fa fa-microphone" aria-hidden="true"></i>
+              </div>
+            </div>  
+        </section>
+        <section id="section3">
+            <div id="secpar">
+                <div class="secparbox" id="secparbox1"></div>
+                <div class="secparbox" id="secparbox2"></div>
+                <div class="secparbox" id="secparbox3"></div>
+                <div class="secparbox" id="secparbox4"></div>
+                <div class="secparbox" id="secparbox5"></div>
+                <div class="secparbox" id="secparbox6"></div>
+                <div class="secparbox" id="secparbox7"></div>
+                <div class="secparbox" id="secparbox8"></div>
+              
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

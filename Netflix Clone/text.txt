@@ -1,0 +1,21 @@
+ <video  autoplay playsinline muted loop>
+      <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+          </video>
+
+
+<img alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="nmhp-card-animation-asset-image" >
+
+for css
+
+/* main #second_div #second_div_box2 #videodiv{
+    width: fit-content;
+    height: fit-content;
+    
+    position: absolute;
+   top:60%;
+    left: 50%;
+} */
+/* main #second_div #second_div_box2 video{
+    display: inline-block;
+    vertical-align: baseline;
+} */

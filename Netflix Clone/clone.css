@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+main{
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    background-color: rgb(71, 69, 69);
+}
+nav{
+    width: 100%;
+    height: 700px;
+    background-image: url(./IN-en-20230619-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  
+   
+}
+nav #firstbox{
+     background: rgb(0 0 0 / 70%);
+    width: 100%;
+    height: 700px;
+
+}
+
+nav #firstbox #navbar{
+    width: 80%;
+    height:fit-content;  
+    display: grid;
+    margin: 0px auto 0px auto;
+    grid-template-columns: auto auto;
+    align-items: center; 
+    position: relative;
+    top: 5px;
+     
+  
+}
+
+nav #firstbox #navbar #textlogo{
+    width: 200px;
+    height: 70px;   
+    background-image: url(./580b57fcd9996e24bc43c529.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    
+}
+
+nav #firstbox #navbar #langlog{
+    
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    direction: row;
+    
+
+}
+#lang{
+    width: fit-content;
+    height: fit-content;
+}
+#lang select{
+    padding: 7px 32px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:transparent;
+}
+#lang select option{
+    color: black;
+    
+  
+}
+
+ #firstbox #navbar #langlog #log{
+    height: fit-content;
+    width: fit-content;
+
+   
+}
+#navbar #langlog #log a{
+    padding: 5px 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color:rgb(229, 9, 20); 
+}
+#navbar #langlog #log a:hover{
+    background: rgb(193,17,25);
+   
+}
+ #firstbox #box1{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    
+}
+ .heding{
+    font-size: 3rem;
+    font-weight: 900;
+
+    
+}
+.para{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 1rem;
+    
+}
+form{
+    width: 80%;
+    height: fit-content;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+ form h3{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+
+    margin-bottom: 1.5rem;
+}
+
+ form input{
+    background-color: rgba(24, 22, 22, 0.521);
+    
+    /* line-height: 1.5rem; */
+    padding: 1rem 0.7rem;
+    width: 390px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    
+   
+}
+form input::placeholder{
+    font-size: 0.8em;
+}
+  form button{
+    width: 230px;
+    padding: 14px 24px;
+    margin-left: 10px;
+    font-size: 1.7em;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    background-color: rgb(229, 9, 20);
+}
+ form button:hover{
+    background: rgb(193,17,25);
+
+}
+main .main_divs{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.forback{
+    background-color: black;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ .div_boxs{
+    /* border: 1px solid rgb(219, 82, 82); */
+    width: 50%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+} 
+
+#second_div_box2 {
+    height: 80%;
+    background-image: url(./Screenshot1.png);
+   
+}
+#thrid_div_box1{
+    height: 80%;
+    background-image: url(./Screenshot2.png);
+}
+#fourth_div_box2{
+    height: 80%;
+    background-image: url(./Screenshot3.png);
+}
+#fifth_div_box1{
+    height: 80%;
+    background-image: url(./Screenshot4.png);
+}
+main #sixbox{
+    height: fit-content;
+}
+.sixthdiv{
+    width: 80%;
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.accordion{
+    width: 100%;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-body{
+    background-color: rgb(45,45,45);
+}
+
+.accordion-button.collapsed{
+    background-color: rgb(45,45,45);
+    color: white;
+}
+#heading2{
+    margin-bottom: 20px;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    display: flex;
+    direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.footerdiv{
+    width: 80%;
+    height: fit-content;
+    /* border: 1px solid white; */
+    margin-top: 2rem;
+    
+}
+#footerdiv1{
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+#footerdiv2 ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1.5rem;
+}
+#footerdiv2 ul li{
+    list-style-type: none;
+}
+#footerdiv2  ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer p{
+    width: 80%;
+    height: fit-content;
+    margin: 2rem 0px ;
+}
+
+footer #lang {
+    background-color:rgba(77, 71, 71, 0.7) ;
+}
+
+
