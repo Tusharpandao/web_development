@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aadhar Card</title>
+    <link rel="stylesheet" href="./AadharCard.css" />
+    <script
+      src="https://kit.fontawesome.com/6071b16b97.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div class="section1">
+        <div id="child1">
+          <img src="./301px-Emblem_of_India.svg.webp" alt="" />
+        </div>
+        <div id="child2">
+          <h3>भारत सरकार</h3>
+          <h2>Government Of India</h2>
+        </div>
+        <div id="child3"><img src="./Aadhaar_Logo.svg" alt="" /></div>
+      </div>
+
+      <div class="data">
+        <table>
+          <tr>
+            <td rowspan="4" id="photo"></td>
+            <th>
+              Name :
+              <span id="Name"></span>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              DOB :
+              <span id="DOB"></span>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              Gender :
+              <span id="Gender"></span>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              Contact :
+              <span id="Contact"></span>
+            </th>
+          </tr>
+
+          <tr>
+            <td colspan="2" id="aadharNumber"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="line"></div>
+      <h1>
+        मेरा
+        <p style="color: brown; width: fit-content; display: inline; ">आधार,</p>
+        मेरी पहचान
+      </h1>
+    </section>
+
+    <div id="buttonparent">
+      <button class="button" onclick="nextAadharDetails()">
+        <i class="fas fa-fast-backward fa-3x"></i>
+      </button>
+      <div id="image"></div>
+      <button class="button" onclick="backAadharDetails()">
+        <i class="fas fa-fast-forward fa-3x"></i>
+      </button>
+    </div>
+
+    <script src="./AadharCard.js" defer></script>
+  </body>
+</html>
